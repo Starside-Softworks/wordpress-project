@@ -1,7 +1,7 @@
-<?php get_header(); ?>
-
+<?php 
 /**
  * Home page
- */
+  */
 
- 
+get_header(); ?>
+
