@@ -1,12 +1,116 @@
 /* 
 Theme Name: X-Factor Consultants
-Author: X-Factor Consultants
+Author: Anthony Alampi & Jacob Alexander
 */
 
+/* site copy */
 html {
     font-family: sans-serif;
     line-height: 1.15;
+	font-size: 14px;
+	color: #669900;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
+
+/* nav */ 
+.class_nav ul {
+    margin: 0;
+    padding: 0;
+}
+/* remove bullet points */ 
+.class_nav ul:before, .class_nav ul:after { content: ""; display: table; }
+.class_nav ul:after { clear: both; }
+.class_nav ul { *zoom: 1; }
+/* set alignement*/ 
+.class_nav ul li {
+    list-style: none;
+    float: left;
+}
+
+
+/* header nav */
+.class_header nav ul li {
+    margin-right: 5px;
+}
+
+.class_header nav ul li a:link,
+.class_header nav ul li a:visited {
+    display: block;
+    padding: 10px 18px;
+    border: 1px solid #BBB;
+    border-bottom: none;
+    text-decoration: none;
+
+}
+
+.class_header nav ul li a:hover {
+    background-color: #ECECEC;
+}
+
+.class_header nav ul li.current-menu-item a:link,
+.class_header nav ul li.current-menu-item a:visited {
+    background-color: #006ec3;
+    color: #FFF;
+}
+
+
+/* footer nav */
+.class_footer nav ul li {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px dotted #BBB;
+}
+
+
+/*
+#nav_logo {
+	height: 60px;
+	width: 211px;
+	position: fixed;
+	z-index: 101;
+	top: 0px;
+	left: 0px;
+}
+#nav_services {
+	height: 60px;
+	width: 150px;
+	position: fixed;
+	z-index: 101;
+	top: 0px;
+	left: 300px;
+}
+#nav_about {
+	height: 60px;
+	width: 150px;
+	position: fixed;
+	z-index: 101;
+	top: 0px;
+	left: 450px;
+}
+#nav_faq {
+	height: 60px;
+	width: 150px;
+	position: fixed;
+	z-index: 101;
+	top: 0px;
+	left: 600px;
+}
+#nav_backtotop {
+	height: 60px;
+	width: 60px;
+	position: fixed;
+	z-index: 101;
+	top: 100px;
+	left: -30px;
+}
+
+#nav_links {
+	height: 60px;
+	width: 150px;
+	position: fixed;
+	z-index: 101;
+	top: 0px;
+	left: 750px;
+}

@@ -5,7 +5,28 @@
   <title><?php wp_title(); ?></title>
   <link rel="pingback" href="<?php bloginfo('pingback_url');?>" />
   <?php wp_head();?>
+
 </head>
 
 <body>
-<?php wp_nav_menu(); ?>
+
+
+<!-- header nav class -->
+<header class="class_header">
+
+  <nav class="class_nav">
+
+      <!-- define nav attributes -->
+      <?php
+      
+      $args = array(
+        'container_class' => 'cont_nav_header',
+        'theme_location' => 'header' );    
+      ?>
+
+      <!-- display nav -->
+      <?php wp_nav_menu( $args ); ?>
+
+  </nav>
+
+</header>
