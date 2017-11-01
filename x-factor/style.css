@@ -35,6 +35,7 @@ html {
     margin-right: 5px;
 }
 
+/* header nav button default style*/
 .class_header nav ul li a:link,
 .class_header nav ul li a:visited {
     display: block;
@@ -45,10 +46,12 @@ html {
 
 }
 
+/* header nav button hover*/
 .class_header nav ul li a:hover {
     background-color: #ECECEC;
 }
 
+/* header nav button selected*/
 .class_header nav ul li.current-menu-item a:link,
 .class_header nav ul li.current-menu-item a:visited {
     background-color: #006ec3;
@@ -61,56 +64,4 @@ html {
     margin-right: 10px;
     padding-right: 10px;
     border-right: 1px dotted #BBB;
-}
-
-
-/*
-#nav_logo {
-	height: 60px;
-	width: 211px;
-	position: fixed;
-	z-index: 101;
-	top: 0px;
-	left: 0px;
-}
-#nav_services {
-	height: 60px;
-	width: 150px;
-	position: fixed;
-	z-index: 101;
-	top: 0px;
-	left: 300px;
-}
-#nav_about {
-	height: 60px;
-	width: 150px;
-	position: fixed;
-	z-index: 101;
-	top: 0px;
-	left: 450px;
-}
-#nav_faq {
-	height: 60px;
-	width: 150px;
-	position: fixed;
-	z-index: 101;
-	top: 0px;
-	left: 600px;
-}
-#nav_backtotop {
-	height: 60px;
-	width: 60px;
-	position: fixed;
-	z-index: 101;
-	top: 100px;
-	left: -30px;
-}
-
-#nav_links {
-	height: 60px;
-	width: 150px;
-	position: fixed;
-	z-index: 101;
-	top: 0px;
-	left: 750px;
 }
