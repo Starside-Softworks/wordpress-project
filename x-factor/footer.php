@@ -12,7 +12,8 @@
       
       $args = array(
         'container_class' => 'cont_nav_footer',
-        'theme_location' => 'footer' );    
+        'theme_location' => 'footer' 
+      );    
       ?>
 
       <!-- display nav -->
