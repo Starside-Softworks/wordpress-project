@@ -1,6 +1,6 @@
 <?php wp_footer(); ?>
 
-<div>&copy; 2017 X Factor Consultants</div>
+<div class="footer_copyright">&copy; <?php the_date('Y'); ?> X Factor Consultants</div>
 
 <!-- footer nav class -->
 <footer class="class_footer">
