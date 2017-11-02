@@ -1,9 +1,9 @@
 <?php wp_footer(); ?>
 
-<div class="footer_copyright">&copy; <?php the_date('Y'); ?> X Factor Consultants</div>
-
 <!-- footer nav class -->
 <footer class="class_footer">
+
+  <div class="footer_copyright">&copy; <?php the_date('Y'); ?> X Factor Consultants</div>
 
   <nav class="class_nav">
 
