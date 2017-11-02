@@ -1,11 +1,11 @@
 <?php wp_footer(); ?>
 
 <!-- footer nav class -->
-<footer class="class_footer">
+<div class="footer">
 
   <div class="footer_copyright">&copy; <?php the_date('Y'); ?> X Factor Consultants</div>
 
-  <nav class="class_nav">
+  <div class="nav">
 
       <!-- define nav attributes -->
       <?php
@@ -19,12 +19,9 @@
       <!-- display nav -->
       <?php wp_nav_menu( $args ); ?>
 
-  </nav>
+  </div>
 
-</footer>
-
-
-
+</div>
 
 </body>
 </html>
