@@ -11,6 +11,13 @@
 
 <body>
 
+<!-- header logo -->
+<div id="myMenu">
+  <nav>
+  <a href="/">
+  <img src="<?php bloginfo('template_url');?>/assets/logo_header.png" height="30" width="106" /></a>
+  </nav>
+</div>
 
 <!-- header nav class -->
 <header class="class_header">
