@@ -14,7 +14,7 @@
 <!-- header logo -->
 <div id="myMenu">
   <nav>
-  <a href="/">
+  <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
   <img src="<?php bloginfo('template_url');?>/assets/logo_header.png" height="30" width="106" /></a>
   </nav>
 </div>
