@@ -11,6 +11,7 @@ html {
 	color: #669900;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    min-height: 100%;
 }
 
 
@@ -58,10 +59,21 @@ html {
     color: #FFF;
 }
 
+/* footer copyright */
+div.footer_copyright {
+    width: 50%;
+    float: left;
+}
 
 /* footer nav */
-.class_footer nav ul li {
+div.class_footer nav ul li {
+    width: 50%;
     margin-right: 10px;
     padding-right: 10px;
-    border-right: 1px dotted #BBB;
+    border-right: 1px solid #BBB;
+    float: right;
+}
+
+div.class_footer li:last-child {
+    border-right: none;
 }
